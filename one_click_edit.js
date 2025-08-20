@@ -2,7 +2,7 @@
 // @name         One-Click Edit (Optimized)
 // @version      2.0
 // @description  Click your message to instantly start editing it in Discord (Vencord), fast and smooth
-// @author       Antonazo
+// @author       sailentcoder
 // ==/UserScript==
 
 const { React, WebpackModules } = vendord; // Vencord internal modules
@@ -34,3 +34,4 @@ module.exports = class OneClickEditOptimized {
         if (this.cancelPatch) this.cancelPatch();
     }
 };
+
